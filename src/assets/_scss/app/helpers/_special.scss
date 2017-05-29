@@ -1,0 +1,80 @@
+/*
+    SPECIAL.CSS
+
+    - Last updated: 29.05.17
+    - liquidvisual.com
+*/
+//-----------------------------------------------------------------
+// VARIABLES
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+// SPECIAL
+//-----------------------------------------------------------------
+
+.header {
+	@include media-breakpoint-down(md) {
+	    font-size: rem-calc(10);
+	}
+
+	h1 {
+		font-size: em-calc(28);
+		margin-bottom: rem-calc(20);
+	}
+
+	h2 {
+		font-size: em-calc(19);
+
+		margin-bottom: rem-calc(20);
+	}
+}
+
+//=========================================
+// LOGO CIRCLES
+//=========================================
+
+.logo-circles {
+	@include media-breakpoint-down(sm) {
+	    padding: rem-calc(50);
+	}
+}
+
+//=========================================
+// PAGE
+//=========================================
+
+.lv-page {
+	overflow: hidden;
+
+	@include media-breakpoint-down(sm) {
+	    padding-top: rem-calc(40);
+	}
+
+	> .container {
+		display: flex;
+		flex-direction: column;
+
+		@include media-breakpoint-up(md) {
+		    min-height: 85vh;
+		}
+
+		> .row {
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+	}
+}
+
+//=========================================
+// IE11 and below
+//=========================================
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.lv-page > .container >.row {
+		margin-top: 80px;
+		// background: orange;
+	}
+}
+
+//=========================================
+//
+//=========================================

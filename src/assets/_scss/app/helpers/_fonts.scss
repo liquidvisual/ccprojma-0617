@@ -1,0 +1,60 @@
+/*
+    FONTS.CSS
+
+    - Last updated: 24.04.15
+    - hello@liquidvisual.com
+*/
+//-----------------------------------------------------------------
+// VARIABLES
+//-----------------------------------------------------------------
+
+$font-path: "/assets/fonts" !default;
+
+//=========================================
+// FUTURA BOOK
+//=========================================
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$font-path}/Futura-Book.eot');
+    src: local('☺'),
+        url('#{$font-path}/Futura-Book.woff') format('woff'),
+        url('#{$font-path}/Futura-Book.tff') format('truetype'),
+        url('#{$font-path}/Futura-Book.svg') format('svg');
+}
+
+//=========================================
+// FUTURA BOLD
+//=========================================
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: bold;
+    src: url('#{$font-path}/Futura-Bold.eot');
+    src: local('☺'),
+        url('#{$font-path}/Futura-Bold.woff') format('woff'),
+        url('#{$font-path}/Futura-Bold.tff') format('truetype'),
+        url('#{$font-path}/Futura-Bold.svg') format('svg');
+}
+
+//=========================================
+// FUTURA LIGHT
+//=========================================
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 100;
+    src: url('#{$font-path}/Futura-Light.eot');
+    src: local('☺'),
+        url('#{$font-path}/Futura-Light.woff') format('woff'),
+        url('#{$font-path}/Futura-Light.tff') format('truetype'),
+        url('#{$font-path}/Futura-Light.svg') format('svg');
+}
+
+//=========================================
+//
+//=========================================

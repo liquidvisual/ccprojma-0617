@@ -1,0 +1,43 @@
+{% assign settings = site.data.settings %}
+
+{% comment %}
+<!-- FOOTER BOTTOM -->
+<section class="global-footer-bottom py-3">
+    <div class="container">
+
+		<small>&copy; {{ site.time | date: '%Y' }}</small>
+
+        <small>
+        	<a class="author-logo pull-xs-right" target="_blank" href="{{ settings.author.url }}">
+            	<span class="text">{{ settings.author.description }}</span>
+            	<img width="16" height="16" src="{{ settings.author.logo }}" alt="Created by {{ settings.author.title }}">
+        	</a>
+        </small>
+
+    </div>
+</section>
+{% endcomment %}
+
+<!-- FOOTER BOTTOM -->
+<section class="global-footer-bottom">
+    <div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<small class="font-color-light text-uppercase">Under Construction /&nbsp;Website&nbsp;Coming&nbsp;Soon ...</small>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-lg-9 col-xl-10 text-md-right">
+						<small class="text-uppercase">
+							Cathy Cavaleri / Founder /<a href="tel:0419399992">&nbsp;M&nbsp;0419&nbsp;399&nbsp;992</a>
+						</small>
+						<div class="spacer mb-1 hidden-lg-up"></div>
+					</div>
+					<div class="col-lg-3 col-xl-2 text-md-right">
+						{% include social_media.html %}
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>

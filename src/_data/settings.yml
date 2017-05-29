@@ -1,0 +1,41 @@
+# GLOBAL SITE SETTINGS
+
+cname: ccprojectmanagement.yourwebvisual.com
+
+# META
+title: CC Project Management - Website Coming Soon
+title_homepage: CC Project Management - Website Coming Soon
+company:
+description:
+
+# SITE DEFAULTS
+site_tagline:
+
+# DEVELOPER
+allow_robots: false
+github_repo_owner: liquidvisual
+github_repo_path: https://github.com/liquidvisual/ccprojma-0617
+github_repo_name:
+jekyll_version: 3.0.3
+
+# OFFICES
+offices:
+  - title:
+    address:
+    email: "#INSERT_HERE"
+
+# SOCIAL MEDIA
+facebook: "#INSERT_HERE"
+linked_in:
+google_plus:
+instagram: "#INSERT_HERE"
+
+# GOOGLE
+google_analytics: "UA-XXXXXXXX-X"
+
+# AUTHOR
+author:
+  title: Mitch
+  url: http://liquidvisual.com
+  logo: /assets/img/ui/liquidvisual-logo.svg
+  description: liquidvisual

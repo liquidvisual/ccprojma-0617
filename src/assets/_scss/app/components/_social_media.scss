@@ -1,0 +1,51 @@
+/*
+    SOCIAL-MEDIA.CSS
+
+    - Last updated: 04.04.17
+    - liquidvisual.com
+*/
+//-----------------------------------------------------------------
+// VARIABLES
+//-----------------------------------------------------------------
+//--------------------------------------------------------------------
+// SOCIAL MEDIA
+//--------------------------------------------------------------------
+
+.social-media {
+	display: inline-flex;
+	list-style: none;
+	padding: 0;
+	margin: rem-calc(0 0 0 -8);
+
+	li {
+		margin-left: rem-calc(8);
+
+		a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 26px;
+			height: 26px;
+			line-height: 0;
+			font-size: 16px; //rem-calc(22);
+			letter-spacing: 0;
+			color: white !important; //lighten($brand-quaternary, 5%);
+			text-align: center;
+			border-radius: 100%;
+			background: #949699; //rgba(darken($brand-quinary, 30%), 0.6);
+			transition: transform 200ms ease, background-color 200ms ease;
+
+			&:hover {
+				transform: scale(1.1);
+				background: darken(#949699, 10%);
+			}
+		}
+	}
+}
+
+//-----------------------------------------------------------------
+//
+//-----------------------------------------------------------------
+//=========================================
+//
+//=========================================

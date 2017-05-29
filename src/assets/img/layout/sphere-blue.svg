@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 228 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-54.942,-389.088)">
+        <clipPath id="_clip1">
+            <path d="M168.307,389.356C105.705,389.504 55.062,440.387 55.21,502.999C55.358,565.607 106.241,616.254 168.843,616.107C231.475,615.958 282.109,565.071 281.96,502.464C281.813,439.943 231.089,389.356 168.582,389.356C168.49,389.356 168.399,389.356 168.307,389.356Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <path d="M282.229,615.839L281.693,389.088L54.942,389.624L55.478,616.375L282.229,615.839Z" style="fill:url(#_Radial2);fill-rule:nonzero;"/>
+        </g>
+    </g>
+    <defs>
+        <radialGradient id="_Radial2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.363694,-153.874,-153.874,0.363694,218.766,502.613)"><stop offset="0" style="stop-color:rgb(174,223,248);stop-opacity:1"/><stop offset="0.94" style="stop-color:rgb(55,156,214);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(80,179,229);stop-opacity:1"/></radialGradient>
+    </defs>
+</svg>
