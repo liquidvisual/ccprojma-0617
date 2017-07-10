@@ -28,6 +28,10 @@
     }
 }
 
+html.has-loaded .lv-page-loader {
+    animation: page-loader-fadeout 1s ease 0.1s alternate 1 forwards;
+}
+
 //-----------------------------------------------------------------
 // DEV LOADER TURNED OFF FOR SPEED
 //-----------------------------------------------------------------
@@ -55,7 +59,7 @@ html[data-dev-mode] .lv-page-loader {
 
 .lv-page-loader-spinner {
     margin: auto;
-    width: 42px;
+    width: 44px;
 
     .bounce-1 {
         background-color: $brand-primary;
@@ -80,8 +84,10 @@ html[data-dev-mode] .lv-page-loader {
     > div {
         width: 18px;
         height: 18px;
+        margin: 2px;
         border-radius: 100%;
         display: inline-block;
+        float: left;
         animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     }
 }
